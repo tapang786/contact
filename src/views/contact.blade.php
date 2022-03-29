@@ -7,7 +7,7 @@
     <title>Contact Us</title>
 </head>
 <body>
-    <h1>Contact Us</h1>
+    <h1>Contact Us Any Time</h1>
     <form action="{{route('contact')}}" method="post">
         @csrf
         <input type="text" name="name" placeholder="You Name">
